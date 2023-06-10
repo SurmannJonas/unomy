@@ -17,12 +17,12 @@ Name: style.css
 
 
 	Table of Contents
-	
-	
+
+
 
 		01. Generel Styles
 
-			+ Generate Google Fonts 
+			+ Generate Google Fonts
 			+ Essentials
 			+ Dividers
 			+ z-index
@@ -136,10 +136,10 @@ Name: style.css
 			+ Minimum Height
 			+ Regular Heights
 
-			
+
 		19. Loading Screen
 
-	
+
 ====================================================*/
 
 
@@ -147,12 +147,12 @@ Name: style.css
 
 /*======================
 
-	01. Generel Styles 
+	01. Generel Styles
 
 ========================*/
 
 
-/* Generate Google Fonts 
+/* Generate Google Fonts
 -------------------------*/
 
 
@@ -164,7 +164,7 @@ Name: style.css
 
 
 
-	
+
 /* Essentials
 -------------------------*/
 
@@ -182,7 +182,7 @@ Name: style.css
     -moz-transition-timing-function: ease-in-out;
     -webkit-transition-timing-function: ease-in-out;
 
-	
+
 
 }
 
@@ -266,7 +266,7 @@ a:focus{
     color: #1769ff;
     text-decoration: none;
     outline: none;
-	
+
 
 }
 
@@ -392,9 +392,9 @@ dl{
 }
 
 .no-shadow{
-	
+
 	box-shadow: none !important;
-	
+
 }
 
 .uk-notification-message{
@@ -430,7 +430,7 @@ dl{
 .rating{
 	color: gold !important;
 }
-	
+
 /* Dividers
 -------------------------*/
 
@@ -645,9 +645,9 @@ hr.ridge{
 
 
 .opacity-hover:hover{
-	
+
 	opacity: 0.6
-	
+
 }
 
 .hidden{
@@ -662,31 +662,31 @@ hr.ridge{
 
 
 .pointer{
-	
+
 	cursor: pointer !important;
 
 }
 
 .swipe-black{
-	
+
 	cursor: url(../images/swipe-black.png), move;
 
 }
 
 .swipe-black-inverse{
-	
+
 	cursor: url(../images/swipe-black-inverse.png), move;
 
 }
 
 .swipe-white{
-	
+
 	cursor: url(../images/swipe-white.png), move;
 
 }
 
 .swipe-white-inverse{
-	
+
 	cursor: url(../images/swipe-white-inverse.png), move;
 
 }
@@ -695,12 +695,12 @@ hr.ridge{
 
 /*======================
 
-	02. Alignments 
+	02. Alignments
 
 ========================*/
 
 
-	
+
 /* Vertivcal Alignments
 -------------------------*/
 
@@ -756,7 +756,7 @@ hr.ridge{
 
 
 .center-col{
-	
+
 	float: none;
     margin-left: auto;
     margin-right: auto;
@@ -764,7 +764,7 @@ hr.ridge{
 }
 
 .right-col{
-	
+
 	float: right;
     margin-left: auto;
     margin-right: auto;
@@ -772,7 +772,7 @@ hr.ridge{
 }
 
 .left-col{
-	
+
 	float: left;
     margin-right: auto;
     margin-right: auto;
@@ -828,308 +828,308 @@ hr.ridge{
 }
 
 .top-1{
-	
+
 	top: 1px;
 
 }
 
 .top-2{
-	
+
 	top: 2px;
 
 }
 
 .top-3{
-	
+
 	top: 3px;
 
 }
 
 .top-4{
-	
+
 	top: 4px;
 
 }
 
 .top-5{
-	
+
 	top: 5px;
 
 }
 
 .top-6{
-	
+
 	top: 6px;
 
 }
 
 .top-7{
-	
+
 	top: 7px;
 
 }
 
 .top-8{
-	
+
 	top: 8px;
 
 }
 
 .top-9{
-	
+
 	top: 9px;
 
 }
 
 .top-10{
-	
+
 	top: 10px;
 
 }
 
 .top-50-percent{
-	
+
 	top: 50%;
 
 }
 
 .top-30-percent{
-	
+
 	top: 30%;
 
 }
 
 .top-25-percent{
-	
+
 	top: 25%;
 
 }
 
 .top-20-percent{
-	
+
 	top: 20%;
 
 }
 
 .top-15-percent{
-	
+
 	top: 15%;
 
 }
 
 .bottom-1{
-	
+
 	bottom: 1px;
 
 }
 
 .bottom-2{
-	
+
 	bottom: 2px;
 
 }
 
 .bottom-3{
-	
+
 	top: 3px;
 
 }
 
 .bottom-4{
-	
+
 	top: 4px;
 
 }
 
 .bottom-5{
-	
+
 	top: 5px;
 
 }
 
 .bottom-6{
-	
+
 	top: 6px;
 
 }
 
 .bottom-7{
-	
+
 	top: 7px;
 
 }
 
 .bottom-8{
-	
+
 	top: 8px;
 
 }
 
 .bottom-9{
-	
+
 	top: 9px;
 
 }
 
 .bottom-10{
-	
+
 	top: 10px;
 
 }
 
 .bottom-10-percent{
-	
+
 	bottom: 10%;
 
 }
 
 .bottom-20-percent{
-	
+
 	bottom: 20%;
 
 }
 
 .bottom-30-percent{
-	
+
 	bottom: 30%;
 
 }
 
 .bottom-40-percent{
-	
+
 	bottom: 40%;
 
 }
 
 .bottom-50-percent{
-	
+
 	bottom: 50%;
 
 }
 
 .bottom-100-percent{
-	
+
 	bottom: 100%;
 
 }
 
 .right-1{
-	
+
 	right: 1px;
 
 }
 
 .right-2{
-	
+
 	right: 2px;
 
 }
 
 .right-3{
-	
+
 	right: 3px;
 
 }
 
 .right-4{
-	
+
 	right: 4px;
 
 }
 
 .right-5{
-	
+
 	right: 5px;
 
 }
 
 .right-6{
-	
+
 	right: 6px;
 
 }
 
 .right-7{
-	
+
 	right: 7px;
 
 }
 
 .right-8{
-	
+
 	right: 8px;
 
 }
 
 .right-9{
-	
+
 	right: 9px;
 
 }
 
 .right-10{
-	
+
 	right: 10px;
 
 }
 
 
 .left-1{
-	
+
 	left: 1px;
 
 }
 
 .left-2{
-	
+
 	left: 2px;
 
 }
 
 .left-3{
-	
+
 	left: 3px;
 
 }
 
 .left-4{
-	
+
 	left: 4px;
 
 }
 
 .left-5{
-	
+
 	left: 5px;
 
 }
 
 .left-6{
-	
+
 	left: 6px;
 
 }
 
 .left-7{
-	
+
 	left: 7px;
 
 }
 
 .left-8{
-	
+
 	left: 8px;
 
 }
 
 .left-9{
-	
+
 	left: 9px;
 
 }
 
 .left-10{
-	
+
 	left: 10px;
 
 }
@@ -1166,7 +1166,7 @@ hr.ridge{
 
 /*======================
 
-	03. Navigations 
+	03. Navigations
 
 ========================*/
 
@@ -1177,7 +1177,7 @@ hr.ridge{
 
 
 .uk-logo img{
-	
+
 	width: 37px;
 	border-radius: 100%;
 
@@ -1193,7 +1193,7 @@ hr.ridge{
 }
 
 .uk-navbar-container:not(.uk-navbar-transparent){
-	
+
 	background: #fff;
 	box-shadow: 0 5px 5px rgba(0,0,0,0.02);
 
@@ -1207,19 +1207,19 @@ hr.ridge{
 
 
 .uk-nav-header:not(:first-child){
-	
+
 	margin-top: 8px;
 
 }
 
 .uk-navbar-dropdown-nav>li.uk-active>a{
-	
+
 	color: #000;
 
 }
 
 .navbar-white .uk-navbar-dropdown-nav>li>a{
-	
+
 	font-weight: 400;
 	color: #585858 !important;
 	font-size: 13px;
@@ -1228,25 +1228,25 @@ hr.ridge{
 }
 
 .navbar-white .text-black{
-	
+
 	color: #333333 !important;
 
 }
 
 .elements-nav li{
-	
+
 	margin-bottom: 10px;
 
 }
 
 .navbar-dark .text-gray-extra-light{
-	
+
 	color: #c0bfbf !important;
 
 }
 
 .navbar-dark .uk-navbar-container:not(.uk-navbar-transparent){
-	
+
 	background: #1f1f1f;
 
 }
@@ -1258,7 +1258,7 @@ hr.ridge{
 }
 
 .navbar-dark .uk-navbar-dropdown-grid>:not(.uk-first-column)::before{
-	
+
     border-left: 1px solid rgb(45, 45, 45);
 
 
@@ -1266,13 +1266,13 @@ hr.ridge{
 
 .navbar-dark .uk-navbar-dropdown-nav .uk-nav-header,
 .navbar-dark .uk-nav-primary a{
-	
+
 	color: #c0bfbf !important;
 
 }
 
 .navbar-dark .uk-navbar-dropdown-nav>li>a{
-	
+
 	font-weight: 400;
 	color: #8d8d8d !important;
 	font-size: 11px;
@@ -1292,46 +1292,46 @@ hr.ridge{
 
 
 .toggle-big{
-	
+
 	transform: scale(1.4);
 
 }
 
 .toggle-square{
-	
+
 	padding: 15px;
 	margin: 20px;
 
 }
 
 .toggle-square:hover{
-	
+
 	background: #1769ff;
 
 }
 
 .menu-white .uk-nav-sub a{
-	
+
 	color: #666666 !important;
 	font-size: 12px;
 
 }
 
 .menu-white .uk-nav>li>a{
-	
+
 	padding-bottom: 10px !important;
 
 }
 
 
 .menu-white .nav-footer a{
-	
+
 	color: #8d8d8d !important;
 
 }
 
 .menu-dark .uk-nav-sub a{
-	
+
 	color: #8d8d8d !important;
 	font-size: 12px;
 
@@ -1344,13 +1344,13 @@ hr.ridge{
 
 
 .menu-dark .nav-footer a{
-	
+
 	color: #8d8d8d !important;
 
 }
 
 .menu-right a{
-	
+
 	font-size: 13px !important;
 	padding-top: 15px !important;
 	padding-bottom: 15px !important;
@@ -1359,14 +1359,14 @@ hr.ridge{
 }
 
 .uk-tab > .uk-active > a{
-	
+
 	color: #6f6f6f;
     border-color: #1769ff;
 
 }
 
 .uk-accordion-title:hover, .uk-accordion-title:focus{
-	
+
 	color: #000
 
 }
@@ -1375,7 +1375,7 @@ hr.ridge{
 
 /*======================
 
-	04. Social Media Icons 
+	04. Social Media Icons
 
 ========================*/
 
@@ -1864,10 +1864,10 @@ hr.ridge{
 	color: #af0606 !important;
 
 }
-	
-	
-	
-	
+
+
+
+
 /*======================
 
 	05. Visibility
@@ -1875,7 +1875,7 @@ hr.ridge{
 ========================*/
 
 
-	
+
 /* Display
 -------------------------*/
 
@@ -1983,7 +1983,7 @@ hr.ridge{
 
 
 /* Left Sides
-----------------------------*/	
+----------------------------*/
 
 
 .left-side{
@@ -2015,7 +2015,7 @@ hr.ridge{
 
 
 /* Right Sides
-----------------------------*/	
+----------------------------*/
 
 
 .right-side{
@@ -2028,7 +2028,7 @@ hr.ridge{
 	width: 70%;
 
 }
-	
+
 .right-side,
 .right-side-small,
 .right-side-large{
@@ -2045,9 +2045,9 @@ hr.ridge{
 	margin: auto;
 
 }
-	
+
 .container-spread{
-	
+
 	width: 100%;
 	padding-right: 10%;
 	padding-left: 10%;
@@ -2065,7 +2065,7 @@ hr.ridge{
 
 
 
-	
+
 /* Font Family
 -------------------------*/
 
@@ -2090,29 +2090,29 @@ hr.ridge{
 
 .page-title-extra-small h1{
 
-	font-size: 12px; 
-	line-height: 20px; 
+	font-size: 12px;
+	line-height: 20px;
 	text-transform: uppercase;
 
 }
 
 .page-title-smaller h1{
 
-	font-size: 16px; 
+	font-size: 16px;
 	line-height: 22px
 
 }
 
 .page-title-small h1{
 
-	font-size: 20px; 
+	font-size: 20px;
 	line-height: 26px
 
 }
 
 .page-title-medium h1{
 
-	font-size: 32px; 
+	font-size: 32px;
 	line-height: 37px
 
 }
@@ -2189,7 +2189,7 @@ h6{
 
 
 
-	
+
 /* Text Sizes
 -------------------------*/
 
@@ -2268,17 +2268,17 @@ h6{
 -------------------------*/
 
 .text-center{
-	
+
 	text-align: center;
 }
 
 .text-left{
-	
+
 	text-align: left;
 }
 
 .text-right{
-	
+
 	text-align: right;
 }
 
@@ -3067,8 +3067,8 @@ blockquote p{
 
 
 }
-	
-	
+
+
 /* Dropcap
 -------------------------*/
 
@@ -3076,9 +3076,9 @@ blockquote p{
 .dropcap{
 
 	float: left;
-	margin: 0 20px 0 0; 
-	text-align: center; 
-	padding: 10px 0; 
+	margin: 0 20px 0 0;
+	text-align: center;
+	padding: 10px 0;
 
 }
 
@@ -3303,7 +3303,7 @@ blockquote p{
 -------------------------*/
 
 .modal-bg-1{
-	
+
     background: url(../images/backgrounds/bg-img-47.jpg);
     background-position: center center;
     z-index: 1;
@@ -3312,7 +3312,7 @@ blockquote p{
 }
 
 .modal-bg-2{
-	
+
     background: url(../images/backgrounds/bg-img-48.jpg);
     background-position: center center;
     z-index: 1;
@@ -3322,7 +3322,7 @@ blockquote p{
 
 
 .modal-bg-3{
-	
+
     background: url(../images/backgrounds/bg-img-49.jpg);
     background-position: center center;
     z-index: 1;
@@ -3332,7 +3332,7 @@ blockquote p{
 
 
 .modal-bg-4{
-	
+
     background: url(../images/backgrounds/bg-img-50.jpg);
     background-position: center center;
     z-index: 1;
@@ -3342,7 +3342,7 @@ blockquote p{
 
 
 .modal-bg-5{
-	
+
     background: url(../images/backgrounds/bg-img-51.jpg);
     background-position: center center;
     z-index: 1;
@@ -3352,7 +3352,7 @@ blockquote p{
 
 
 .modal-bg-6{
-	
+
     background: url(../images/backgrounds/bg-img-39.jpg);
     background-position: center center;
     z-index: 1;
@@ -3362,7 +3362,7 @@ blockquote p{
 
 
 .modal-bg-7{
-	
+
     background: url(../images/backgrounds/bg-56.jpg);
     background-position: center center;
     z-index: 1;
@@ -3372,7 +3372,7 @@ blockquote p{
 
 
 .modal-bg-8{
-	
+
     background: url(../images/backgrounds/bg-60.jpg);
     background-position: center center;
     z-index: 1;
@@ -4490,8 +4490,8 @@ blockquote p{
 	10. Portfolio
 
 ========================*/
-	
-	
+
+
 
 /* Filter Styles
 -------------------------*/
@@ -4511,13 +4511,13 @@ blockquote p{
 }
 
 .filter-style-1{
-	
+
 	margin-bottom: 75px;
 
 }
 
 .filter-style-1 li a{
-	
+
 	text-transform: capitalize !important;
 	border: 1px solid #e5e5e5 !important;
 	padding: 5px 15px 5px 15px;
@@ -4529,7 +4529,7 @@ blockquote p{
 .filter-style-1 li a:hover,
 .filter-style-1 li a:focus,
 .filter-style-1 li a:active{
-	
+
 	background: #000;
 	color: #fff !important;
 	border: 1px solid #000 !important;
@@ -4537,13 +4537,13 @@ blockquote p{
 }
 
 .filter-style-2{
-	
+
 	margin-bottom: 75px;
 
 }
 
 .filter-style-2 a{
-	
+
 	font-size: 13px !important;
 	border-bottom: 1px solid #fff !important;
 	margin-right: 30px;
@@ -4562,13 +4562,13 @@ blockquote p{
 .filter-style-2 li a:hover,
 .filter-style-2 li a:focus,
 .filter-style-2 li a:active{
-	
+
 	border-bottom: 1px solid #000 !important;
 
 }
 
 .filter-style-3{
-	
+
 	text-align: center;
 	margin-bottom: 75px;
 
@@ -4580,7 +4580,7 @@ blockquote p{
 }
 
 .filter-style-5{
-	
+
 	text-align: center;
 	margin-bottom: 75px;
 
@@ -4588,13 +4588,13 @@ blockquote p{
 
 
 .filter-style-5 li{
-	
+
 	margin-right: 50px;
 
 }
 
 .filter-style-5 li a{
-	
+
 	text-transform: uppercase !important;
 	font-weight: 700 !important;
 	border-bottom: 3px solid #f5b324 !important;
@@ -4605,7 +4605,7 @@ blockquote p{
 .filter-style-5 li a:hover,
 .filter-style-5 li a:focus,
 .filter-style-5 li a:active{
-	
+
 	border-bottom: 3px solid #000 !important;
 
 }
@@ -4618,13 +4618,13 @@ blockquote p{
 
 
 .hover-custom-01 a .hover{
-	
+
 	background: transparent;
 
 }
 
 .hover-custom-01 .hover{
-	
+
 	position: absolute;
 	top: 0px;
 	left: 0px;
@@ -4644,7 +4644,7 @@ blockquote p{
 
 
 .hover-custom-01 a:hover .hover{
-	
+
 	opacity: 1;
 	-moz-transform: translate(0%, 0%);
 	-webkit-transform: translate(0%, 0%);
@@ -4655,7 +4655,7 @@ blockquote p{
 }
 
 .hover-custom-01 a:hover img{
-	
+
 	-o-transform: scale(1) translate(-100%, 0%);
 	-moz-transform: scale(1) translate(-100%, 0%);
 	-webkit-transform: scale(1) translate(-100%, 0%);
@@ -4664,7 +4664,7 @@ blockquote p{
 }
 
 .hover-icon-01 span:hover{
-	
+
 	background: #ccc;
 
 }
@@ -4676,13 +4676,13 @@ blockquote p{
 
 
 .hover-custom-02 a .hover{
-	
+
 	background: transparent;
 
 }
 
 .hover-custom-02 .hover{
-	
+
 	position: absolute;
 	top: 0px;
 	left: 0px;
@@ -4698,7 +4698,7 @@ blockquote p{
 
 
 .hover-custom-02 a:hover .hover{
-	
+
 	opacity: 1;
 	-moz-transform: translate(0%, 0%);
 	-webkit-transform: translate(0%, 0%);
@@ -4709,7 +4709,7 @@ blockquote p{
 }
 
 .hover-custom-02 a:hover img{
-	
+
 	-o-transform: scale(1.3);
 	-moz-transform: scale(1.3);
 	-webkit-transform: scale(1.3);
@@ -4719,7 +4719,7 @@ blockquote p{
 }
 
 .hover-icon-02 span:hover{
-	
+
 	background: #ccc;
 
 }
@@ -4739,35 +4739,35 @@ blockquote p{
 
 .pie-chart-1 .chart-style-1{
 
-	width: 130px; 
-	height: 130px; 
-	position: relative; 
-	display: inline-block; 
-	text-align: center; 
+	width: 130px;
+	height: 130px;
+	position: relative;
+	display: inline-block;
+	text-align: center;
 	margin: auto;
-	
+
 }
-	
+
 .pie-chart-1 .chart-style-1 canvas{
- 
-	position: absolute; 
-	top: 0; 
+
+	position: absolute;
+	top: 0;
 	left: 0;
-	
+
 }
-	
+
 .pie-chart-1 .percent{
 
-	display: inline-block; 
-	line-height: 130px; 
+	display: inline-block;
+	line-height: 130px;
 	z-index: 2;
 
 }
-	
+
 .percent:after{
 
-	content: '%'; 
-	
+	content: '%';
+
 }
 
 
@@ -4777,28 +4777,28 @@ blockquote p{
 
 .pie-chart-2 .chart-style-2{
 
-	width: 150px; 
-	height: 150px; 
-	position: relative; 
-	display: inline-block; 
-	text-align: center; 
+	width: 150px;
+	height: 150px;
+	position: relative;
+	display: inline-block;
+	text-align: center;
 	margin: auto;
 
 }
-	
+
 .pie-chart-2 .chart-style-2 canvas{
- 
-	position: absolute; 
-	top: 0; 
+
+	position: absolute;
+	top: 0;
 	left: 0;
-	
+
 }
 
-	
+
 .pie-chart-2 .percent{
 
-	display: inline-block; 
-	line-height: 150px; 
+	display: inline-block;
+	line-height: 150px;
 	z-index: 2;
 
 }
@@ -4810,29 +4810,29 @@ blockquote p{
 
 .pie-chart-3 .chart-style-3{
 
-	width: 200px; 
-	height: 200px; 
-	position: relative; 
-	display: inline-block; 
-	text-align: center; 
+	width: 200px;
+	height: 200px;
+	position: relative;
+	display: inline-block;
+	text-align: center;
 	margin: auto;
-	
+
 }
-	
+
 .pie-chart-3 .chart-style-3 canvas{
- 
-	position: absolute; 
-	top: 0; 
+
+	position: absolute;
+	top: 0;
 	left: 0;
 
 }
 
 .pie-chart-3 .percent{
 
-	display: inline-block; 
-	line-height: 200px; 
+	display: inline-block;
+	line-height: 200px;
 	z-index: 2;
-	
+
 }
 
 
@@ -9454,7 +9454,7 @@ blockquote p{
     padding-bottom: 19%;
 
 }
- 
+
 .padding-top-bottom-twenty-percent{
 
     padding-top: 20%;
@@ -10913,12 +10913,12 @@ blockquote p{
 
 	19. Loading Screen
 
-========================*/	
+========================*/
 
 
 
 #loader-wrapper{
-	
+
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -10934,7 +10934,7 @@ blockquote p{
 
 
 .loader-img img{
-	
+
 	display: block;
 	position: absolute;
 	left: 42%;
@@ -10942,7 +10942,7 @@ blockquote p{
 	width: 250px;
 	height: auto;
 	z-index: 1002;
-	-webkit-transition: all 0.2s;  
+	-webkit-transition: all 0.2s;
 	transition: all 0.2s 0.2s;
 }
 
@@ -10952,7 +10952,7 @@ blockquote p{
 
 
 #loader-wrapper .loader-section{
-	
+
 	position: fixed;
 	top: 0;
 	width: 100%;
@@ -10965,12 +10965,12 @@ blockquote p{
 }
 
 #loader-wrapper .loader-section.section-left{
-	
+
 	left: 0%;
 }
 
 #loader-wrapper .loader-section.section-right{
-	
+
 	right: 0%;
 }
 
@@ -10981,26 +10981,26 @@ blockquote p{
 
 
 .loaded #loader-wrapper .loader-section.section-left{
-	
+
 	opacity: 0;
-	-webkit-transition: all 0.4s;  
+	-webkit-transition: all 0.4s;
 	transition: all 0.4s 0.4s;
 }
 
 .loaded #loader-wrapper .loader-section.section-right{
-	
+
    opacity: 0;
-	-webkit-transition: all 0.4s 0.4s;  
+	-webkit-transition: all 0.4s 0.4s;
 	transition: all 0.4s 0.4s;
 }
 
 .loaded #loader{
-	
+
 	opacity: 0;
 }
 
 .loaded #loader-wrapper{
-	
+
 	visibility: hidden;
 	opacity: 1;
 }
@@ -11008,6 +11008,6 @@ blockquote p{
 .loaded .loader-img img{
 	visibility: hidden;
 	opacity: 0;
-	-webkit-transition: all 0.2s;  
+	-webkit-transition: all 0.2s;
 	transition: all 0.2s 0.2s;
 }
