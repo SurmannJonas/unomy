@@ -1,0 +1,14 @@
+{
+  "name": "js",
+  "version": "1.0.0",
+  "description": "TS script for Unomy for integrating Spool SDK",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jonas of LOCK",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.1.3"
+  }
+}
