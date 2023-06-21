@@ -1,72 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Your website description here">
-  <meta name="keywords" content="your, keywords, here">
-  <meta name="author" content="Your Name">
+	<head>
+	  <meta charset="UTF-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  <meta name="description" content="Your website description here">
+	  <meta name="keywords" content="your, keywords, here">
+	  <meta name="author" content="Your Name">
 
-  <!-- Search Engine Optimization (SEO) -->
-  <title>Your Website Title</title>
-  <meta name="robots" content="index, follow">
-  <meta name="googlebot" content="index, follow">
-  <link rel="canonical" href="https://www.yourwebsite.com/">
+	  <!-- Search Engine Optimization (SEO) -->
+	  <title>Your Website Title</title>
+	  <meta name="robots" content="index, follow">
+	  <meta name="googlebot" content="index, follow">
+	  <link rel="canonical" href="https://www.yourwebsite.com/">
 
-  <!-- Social Media Meta Tags -->
-  <meta property="og:title" content="Your Website Title">
-  <meta property="og:description" content="Your website description here">
-  <meta property="og:image" content="https://www.yourwebsite.com/images/your-image.jpg">
-  <meta property="og:url" content="https://www.yourwebsite.com/">
-  <meta name="twitter:card" content="summary_large_image">
+	  <!-- Social Media Meta Tags -->
+	  <meta property="og:title" content="Your Website Title">
+	  <meta property="og:description" content="Your website description here">
+	  <meta property="og:image" content="https://www.yourwebsite.com/images/your-image.jpg">
+	  <meta property="og:url" content="https://www.yourwebsite.com/">
+	  <meta name="twitter:card" content="summary_large_image">
 
-  <!-- Favicon -->
-  <link rel="icon" type="image/png" href="favicon.png">
+	  <!-- Favicon -->
+	  <link rel="icon" type="image/png" href="favicon.png">
 
-  <!-- CSS Stylesheets -->
-  <link rel="stylesheet" href="styles.css">
+	  <!-- CSS Stylesheets -->
+	  <link rel="stylesheet" href="css/styles.css">
 
-  <!-- JavaScript -->
-  <script src="script.js"></script>
-</head>
+	</head>
 
-<body>
-  <header>
-    <h1>Unomy</h1>
-    <h2>You own your Finances</h2>
-  </header>
+	<body>
+	  <header class="header">
+	    <h1>Unomy</h1>
+	    <h2>You own your Finances</h2>
+	  </header>
 
-  <section id="widget">
-    <!-- JavaScript widget code goes here -->
-		<iframe width=320px height=240px frameBorder="0" scrolling="no" src="https://app.spool.fi/widgets/spool-widget/spoolAddress=0xf880ceebbbd960143a65ce70366324516f2104fc/container=background:%2373a2e7;color:%23000000;borderRadius:40px;&title=color:%23000000;fontSize:16px;&statisticsTitle=color:%231735ec;&statisticsDetail=color:%23f52d2d;&deposit=color:%238a3535"/>
-  </section>
+	  <div id="widget">
+	    <!-- JavaScript widget code goes here -->
+	    <iframe width="320px" height="240px" frameborder="0" scrolling="no" src="https://app.spool.fi/widgets/spool-widget/spoolAddress=0xf880ceebbbd960143a65ce70366324516f2104fc/container=background:%2373a2e7;color:%23000000;borderRadius:40px;&title=color:%23000000;fontSize:16px;&statisticsTitle=color:%231735ec;&statisticsDetail=color:%23f52d2d;&deposit=color:%238a3535"></iframe>
+	  </div>
 
-  <section id="faq">
-    <h3>Frequently Asked Questions</h3>
+		<div class="container">
+		 <h3>Frequently Asked Questions</h3>
+		 <div class="accordion">
+			 <div class="accordion-item">
+				 <button id="accordion-button-1" aria-expanded="false">
+					 <span class="accordion-title">Why is the moon sometimes out during the day?</span>
+					 <span class="icon" aria-hidden="true"></span>
+				 </button>
+				 <div class="accordion-content">
+					 <p>
+						 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+						 incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut.
+						 Ut tortor pretium viverra suspendisse potenti.
+					 </p>
+				 </div>
+			 </div>
+			 <div class="accordion-item">
+				 <button id="accordion-button-2" aria-expanded="false">
+					 <span class="accordion-title">Why is the sky blue?</span>
+					 <span class="icon" aria-hidden="true"></span>
+				 </button>
+				 <div class="accordion-content">
+					 <p>
+						 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+						 incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut.
+						 Ut tortor pretium viverra suspendisse potenti.
+					 </p>
+				 </div>
+			 </div>
+			 <div class="accordion-item">
+				 <button id="accordion-button-3" aria-expanded="false">
+					 <span class="accordion-title">Will we ever discover aliens?</span>
+					 <span class="icon" aria-hidden="true"></span>
+				 </button>
+				 <div class="accordion-content">
+					 <p>
+						 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+						 incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut.
+						 Ut tortor pretium viverra suspendisse potenti.
+					 </p>
+				 </div>
+			 </div>
+			 <div class="accordion-item">
+				 <button id="accordion-button-4" aria-expanded="false">
+					 <span class="accordion-title">How much does the Earth weigh?</span>
+					 <span class="icon" aria-hidden="true"></span>
+				 </button>
+				 <div class="accordion-content">
+					 <p>
+						 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+						 incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut.
+						 Ut tortor pretium viverra suspendisse potenti.
+					 </p>
+				 </div>
+			 </div>
+			 <div class="accordion-item">
+				 <button id="accordion-button-5" aria-expanded="false">
+					 <span class="accordion-title">How do airplanes stay up?</span>
+					 <span class="icon" aria-hidden="true"></span>
+				 </button>
+				 <div class="accordion-content">
+					 <p>
+						 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+						 incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut.
+						 Ut tortor pretium viverra suspendisse potenti.
+					 </p>
+				 </div>
+			 </div>
+		 </div>
+	 </div>
 
-    <div class="accordion">
-      <button class="accordion-button">Question 1</button>
-      <div class="accordion-content">
-        <p>Answer 1</p>
-      </div>
 
-      <button class="accordion-button">Question 2</button>
-      <div class="accordion-content">
-        <p>Answer 2</p>
-      </div>
+	  <!-- JavaScript -->
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	 	<script src="js/script.js"></script>
 
-      <button class="accordion-button">Question 3</button>
-      <div class="accordion-content">
-        <p>Answer 3</p>
-      </div>
-
-      <!-- Add more questions and answers as needed -->
-    </div>
-  </section>
-
-  <!-- Your content here -->
-
-</body>
+	</body>
 
 </html>

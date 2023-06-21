@@ -8,11 +8,6 @@ Name: styles.css
 ------------------------------------- */
 
 
-
-
-
-
-
 /*====================================================
 
 
@@ -40,7 +35,7 @@ Name: styles.css
 
 /*======================
 
-	01. Generel Styles
+	01. General Styles
 
 ========================*/
 
@@ -48,45 +43,158 @@ Name: styles.css
 /* Generate Google Fonts
 -------------------------*/
 
-
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900');
 
 @import url('https://fonts.googleapis.com/css?family=Heebo:100,300,400,500,700,800,900');
 
+@import url('https://fonts.googleapis.com/css?family=Hind:300,400&display=swap');
+
 
 
 /* 01. Generel Styles */
+/* CSS styles for the website */
+
+/* Reset default browser styles */
+body, h1, h2, h3, p, ul, li, figure, figcaption, form, fieldset, legend {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+	font-family: 'Hind', sans-serif;
+	background: #fff;
+	color: #4d5974;
+	text-align: center;
+	min-height: 100vh;
+}
+
+header {
+  margin-top: 20px; /* Add some space at the top */
+
+}
+
+#widget {
+  margin: 20px auto; /* Center the widget */
+  max-width: 320px; /* Limit the widget's maximum width */
+}
+
+/* Adjust the styles for mobile devices */
+@media (max-width: 600px) {
+  #widget {
+    max-width: 100%; /* Allow the widget to take full width */
+  }
+}
 
 
 /* 02. FAQ Accordion Styles */
 
-
-.accordion-button {
-  background-color: #f5f5f5;
-  color: #333;
-  cursor: pointer;
-  padding: 10px;
-  width: 100%;
-  text-align: left;
-  border: none;
-  outline: none;
-  transition: background-color 0.3s ease;
+.container {
+  margin: 0 auto;
+  padding: 4rem;
+  width: 48rem;
 }
 
-.accordion-button:hover {
-  background-color: #ddd;
+.accordion .accordion-item {
+  border-bottom: 1px solid #e5e5e5;
 }
 
-.accordion-content {
-  padding: 10px;
-  display: none;
-  background-color: #fff;
+.accordion .accordion-item button[aria-expanded='true'] {
+  border-bottom: 1px solid #03b5d2;
 }
 
-.accordion-content p {
-  margin: 0;
-}
-
-.accordion-content.show {
+.accordion button {
+  position: relative;
   display: block;
+  text-align: left;
+  width: 100%;
+  padding: 1em 0;
+  color: #7288a2;
+  font-size: 1.15rem;
+  font-weight: 400;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+.accordion button:hover,
+.accordion button:focus {
+  cursor: pointer;
+  color: #03b5d2;
+}
+
+.accordion button:hover::after,
+.accordion button:focus::after {
+  cursor: pointer;
+  color: #03b5d2;
+  border: 1px solid #03b5d2;
+}
+
+.accordion button .accordion-title {
+  padding: 1em 1.5em 1em 0;
+}
+
+.accordion button .icon {
+  display: inline-block;
+  position: absolute;
+  top: 18px;
+  right: 0;
+  width: 22px;
+  height: 22px;
+  border: 1px solid;
+  border-radius: 22px;
+}
+
+.accordion button .icon::before {
+  display: block;
+  position: absolute;
+  content: '';
+  top: 9px;
+  left: 5px;
+  width: 10px;
+  height: 2px;
+  background: currentColor;
+}
+.accordion button .icon::after {
+  display: block;
+  position: absolute;
+  content: '';
+  top: 5px;
+  left: 9px;
+  width: 2px;
+  height: 10px;
+  background: currentColor;
+}
+
+.accordion button[aria-expanded='true'] {
+  color: #03b5d2;
+}
+.accordion button[aria-expanded='true'] .icon::after {
+  width: 0;
+}
+.accordion button[aria-expanded='true'] + .accordion-content {
+  opacity: 1;
+  max-height: 9em;
+  transition: all 200ms linear;
+  will-change: opacity, max-height;
+}
+.accordion .accordion-content {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: opacity 200ms linear, max-height 200ms linear;
+  will-change: opacity, max-height;
+}
+.accordion .accordion-content p {
+  font-size: 1rem;
+  font-weight: 300;
+  margin: 2em 0;
 }
